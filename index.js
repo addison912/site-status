@@ -10,7 +10,7 @@ function checkSite() {
     if (response.status == 200) {
       axios.post(slack, {
         text:
-          "admin.ayabrackett.com is down\nCheck https://cp.s501.sureserver.com/sureapp/index.php",
+          "admin.ayabrackett.com is not responding\nCheck https://cp.s501.sureserver.com/sureapp/index.php",
       });
     }
   });
