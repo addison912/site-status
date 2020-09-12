@@ -3,7 +3,7 @@ const axios = require("axios"),
 slack =
   "https://hooks.slack.com/services/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";
 
-var start = setInterval(checkSite(), 600000);
+var start = setInterval(checkSite, 600000);
 
 function checkSite() {
   axios.get(url).then((response) => {
