@@ -1,5 +1,5 @@
 const axios = require("axios"),
-  url = "https://admin.ayabrackett.com/api/test";
+  url = "https://admin.ayabrackett.com/api/about/test";
 slack =
   "https://hooks.slack.com/services/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";
 
